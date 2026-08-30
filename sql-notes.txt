@@ -1,0 +1,74 @@
+SQL PRACTICE NOTES
+
+1. SELECT
+Used to retrieve data.
+
+Example:
+SELECT * FROM student;
+
+2. WHERE
+Filters records.
+
+Example:
+SELECT * FROM student
+WHERE marks > 80;
+
+3. ORDER BY
+Sorts the result.
+
+Example:
+SELECT * FROM student
+ORDER BY marks DESC;
+
+4. GROUP BY
+Groups rows having the same value.
+
+Example:
+SELECT city, COUNT(*)
+FROM student
+GROUP BY city;
+
+5. HAVING
+Filters grouped results.
+
+Example:
+SELECT city, AVG(marks)
+FROM student
+GROUP BY city
+HAVING AVG(marks) > 85;
+
+6. JOIN
+Combines data from multiple tables.
+
+Example:
+SELECT student.name, course.course
+FROM student
+INNER JOIN course
+ON student.id = course.id;
+
+7. COUNT
+Counts rows.
+
+8. SUM
+Calculates total.
+
+9. AVG
+Calculates average.
+
+10. MIN
+Finds minimum value.
+
+11. MAX
+Finds maximum value.
+
+12. DISTINCT
+Returns unique values.
+
+13. UPDATE
+Updates existing data.
+
+14. DELETE
+Deletes data.
+
+15. ALTER TABLE
+Changes table structure.

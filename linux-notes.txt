@@ -1,0 +1,70 @@
+LINUX COMMANDS PRACTICE
+
+1. pwd
+Prints the current working directory.
+
+2. ls
+Lists files and directories.
+
+3. cd
+Changes directory.
+
+4. mkdir
+Creates a new directory.
+
+5. touch
+Creates a new empty file.
+
+6. cat
+Displays file content.
+
+7. cp
+Copies files or directories.
+
+8. mv
+Moves or renames files.
+
+9. rm
+Removes files.
+
+10. grep
+Searches for text/patterns.
+
+11. head
+Shows the beginning of a file.
+
+12. tail
+Shows the end of a file.
+
+13. find
+Searches for files and directories.
+
+14. chmod
+Changes file permissions.
+
+15. chown
+Changes file ownership.
+
+16. ps
+Shows running processes.
+
+17. top
+Shows real-time processes.
+
+18. systemctl
+Manages system services.
+
+19. journalctl
+Views system logs.
+
+20. ping
+Tests network connectivity.
+
+21. dig
+Queries DNS information.
+
+22. curl
+Transfers data from/to a server.
+
+23. wget
+Downloads files from the internet.
